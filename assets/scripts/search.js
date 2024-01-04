@@ -10,7 +10,7 @@ var defaultLayers = platform.createDefaultLayers();
 // Instantiate (and display) a map object:
 let mapContainer = document.querySelector('#map-container');
 const map = new H.Map(mapContainer, defaultLayers.vector.normal.map, {
-    center: { lat: 40.7128, lng: -74.0060 }, // Default to NYC
+    center: { lat: 28.36, lng: 77.12 }, // Default to NYC
     zoom: 10
   });
 
